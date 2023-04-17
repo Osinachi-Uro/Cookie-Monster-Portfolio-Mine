@@ -1,0 +1,49 @@
+/* 
+
+Project Name: Personal Profile 
+Client: One Month
+Author: Osinachi Uro | www.twitter.com/osinachi_ibiam | www.osinachiuro.com
+
+
+*/
+
+body {
+	background: url('Osinachi.jpg'); /* adds a background images*/
+	/* the following is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* style the container */
+#container {
+	background: black;
+	width: 410px;
+	color: white;
+	padding: 15px; /* adds padding to the container edges*/
+}
+
+/* Style the H1 text */
+h1 {
+	font-size: 80px;
+}
+
+/* Style the H2 text */
+h2 {
+	background: #75c1f6;
+	color: black;
+	padding: 5px;
+	border-radius: 5px; /* this kinda softenes the edges*/
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
